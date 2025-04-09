@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/utr1903/argocd-test.git
-    targetRevision: main
+    targetRevision: HEAD
     path: apps/my-nginx
     helm:
       valueFiles:
